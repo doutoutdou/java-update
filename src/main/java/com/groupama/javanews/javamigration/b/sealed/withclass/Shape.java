@@ -1,4 +1,4 @@
-package com.groupama.javanews.javamigration.sealed.classe;
+package com.groupama.javanews.javamigration.b.sealed.withclass;
 
 public abstract sealed class Shape permits Circle, Rectangle {
     

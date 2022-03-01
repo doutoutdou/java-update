@@ -1,4 +1,4 @@
-package com.groupama.javanews.javamigration.sealed.classe;
+package com.groupama.javanews.javamigration.b.sealed.withclass;
 
 public non-sealed class Circle extends Shape{
 

@@ -1,4 +1,4 @@
-package com.groupama.javanews.javamigration.sealed.classe;
+package com.groupama.javanews.javamigration.b.sealed.withclass;
 
 public sealed class Rectangle extends Shape permits SmallRectangle {
 

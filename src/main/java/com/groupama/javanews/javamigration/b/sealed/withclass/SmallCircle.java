@@ -1,4 +1,4 @@
-package com.groupama.javanews.javamigration.sealed.classe;
+package com.groupama.javanews.javamigration.b.sealed.withclass;
 
 public class SmallCircle extends Circle {
     

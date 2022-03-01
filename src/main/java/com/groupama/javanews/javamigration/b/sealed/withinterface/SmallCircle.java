@@ -1,4 +1,4 @@
-package com.groupama.javanews.javamigration.sealed.interfac;
+package com.groupama.javanews.javamigration.b.sealed.withinterface;
 
 public class SmallCircle implements Circle {
     
