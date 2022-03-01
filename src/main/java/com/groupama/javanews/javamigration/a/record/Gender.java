@@ -1,4 +1,4 @@
-package com.groupama.javanews.javamigration.record;
+package com.groupama.javanews.javamigration.a.record;
 
 public record Gender(String gender) {
     
