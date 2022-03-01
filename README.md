@@ -12,9 +12,9 @@ Sinon ce talk du devfest est parfait et aborde pas mal de nouveautés :
 
 https://devfest2021.gdgnantes.com/sessions/java_au_futur___des_record_au_pattern_matching/
 
-Après notre cher baeldung a des pages pour chaque version
+Après notre cher baeldung a des pages pour chaque version (la page pour la version 17 ne contient pas la liste ...)
 
-https://www.baeldung.com/java-17-new-features
+https://www.baeldung.com/java-15-new
 
 ## Prerequis
 
