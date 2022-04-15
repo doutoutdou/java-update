@@ -1,0 +1,15 @@
+groupama:
+  logging:
+    console: CONSOLE
+logging:
+  level:
+    com.groupama: debug
+security:
+  oauth2:
+    resource:
+      jwt:
+        key-uri: false
+        key-value: |
+            -----BEGIN PUBLIC KEY-----
+            MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlLXVzRkVWmET+MqkogtQ0pcWSCKAgEcPPDoshWB7R84kTWEyzM5+n1RYe6UuZzqx1A+7u5sRVgQNVxobb8gBBqwjJnz4DtM1Y9bWWdBpAtvV3Oki3upZWJOMLdrwtZAU8Cka6sfP2NzTrmg3N9wDbVHUjqnMIWxLhQldc7xZoApr8G0sGOuFCFiNfAytNSGR9bbT7cIol6rS50ROlmFTnu5CdaniZOjRfxU//a/54rUrQZum9F82dgcQyfz+IU1jXg2wIFJPFzZnqkqVNXXOhQV0kKGbDiHN59iy21lt3JHIX/tDi5ooflmvfMNIBiPPkT9ly/sMqAV7H6TD477rTQIDAQAB
+            -----END PUBLIC KEY-----

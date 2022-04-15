@@ -1,0 +1,40 @@
+spring:
+  application:
+    name: java-migration
+  jackson:
+    default-property-inclusion: non_null
+  profiles:
+    active: local
+server:
+  compression:
+    enabled: true
+    mime-types: application/json,application/xml,text/html,text/xml,text/plain
+    min-response-size: 2048
+  max-http-header-size: 204800
+  port: 8080
+api:
+  contact:
+    mail: TODO
+    name: 'TODO: Contact affiché sur le catalogue de services'
+    uri: null
+  description: 'TODO: Description affichée sur le catalogue de services'
+  licence:
+    text: null
+    uri: null
+  name: java-migration
+  support:
+    name: 'TODO: Groupe de support affiché sur le catalogue de services'
+  terms:
+    uri: null
+  version: '@project.version@'
+logging:
+  level:
+    com.groupama: info
+    org.springframework: info
+  pattern:
+    level: user:%X{user:-system} %5p
+security:
+  oauth2:
+    resource:
+      jwt:
+        key-uri: http://ca.castor${ENV_SUFFIX}.svc:8080/oauth/token_key
